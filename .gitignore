@@ -1,0 +1,14 @@
+.env
+.idea
+node_modules/
+jspm_packages/
+dist/
+.vscode/
+.DS_Store
+*.log
+legacy/
+config.local.json
+.data/tmp*
+.data/last-order.json
+.data/numbers*
+.tmp

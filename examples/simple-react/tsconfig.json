@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "system",
+        "target": "es5",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "noEmitOnError": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "baseUrl": "src",
+        "outDir": ".tmp",
+        "paths": {
+            "*": ["*", "@types/*"]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
