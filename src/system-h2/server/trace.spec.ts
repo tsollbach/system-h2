@@ -14,12 +14,12 @@ const transpilerConfig: Config = {
   }
 }
 
-describe('ConfigGenerator', () => {
+describe('trace', () => {
   let config: Config
   let builder: Builder
   before(() => {
     config = generateConfig({
-      rootFolder: 'testProjects/simple'
+      rootFolder: 'tests/simple'
     })
 
     config.transpiler = transpilerConfig.transpiler
