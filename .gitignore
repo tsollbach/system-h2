@@ -12,3 +12,4 @@ config.local.json
 .data/last-order.json
 .data/numbers*
 .tmp
+build/

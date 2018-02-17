@@ -1,0 +1,3 @@
+These are test projects with constructed dependencies to test systemh2 functionality.
+Therefore node_modules will be included in git and no yarn or npm commands should be used here to not change the file
+tree under the node_modules folder
