@@ -2,7 +2,6 @@
 .idea
 node_modules/
 jspm_packages/
-dist/
 .vscode/
 .DS_Store
 *.log

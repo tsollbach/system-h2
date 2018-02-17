@@ -1,0 +1,9 @@
+import 'should';
+import { generateSource } from './generate-source';
+describe('SourceMapGenerator', () => {
+    it('should run', () => {
+        generateSource('testProjects/simple', 'src');
+    });
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9zeXN0ZW0taDIvZ2VuZXJhdGUtY29uZmlnL2dlbmVyYXRlLXNvdXJjZS5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sUUFBUSxDQUFBO0FBRWYsT0FBTyxFQUFFLGNBQWMsRUFBRSxNQUFNLG1CQUFtQixDQUFBO0FBRWxELFFBQVEsQ0FBQyxvQkFBb0IsRUFBRSxHQUFHLEVBQUU7SUFDbEMsRUFBRSxDQUFDLFlBQVksRUFBRSxHQUFHLEVBQUU7UUFDcEIsY0FBYyxDQUFDLHFCQUFxQixFQUFFLEtBQUssQ0FBQyxDQUFBO0lBQzlDLENBQUMsQ0FBQyxDQUFBO0FBQ0osQ0FBQyxDQUFDLENBQUEiLCJmaWxlIjoiZ2VuZXJhdGUtY29uZmlnL2dlbmVyYXRlLXNvdXJjZS5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdzaG91bGQnXG5cbmltcG9ydCB7IGdlbmVyYXRlU291cmNlIH0gZnJvbSAnLi9nZW5lcmF0ZS1zb3VyY2UnXG5cbmRlc2NyaWJlKCdTb3VyY2VNYXBHZW5lcmF0b3InLCAoKSA9PiB7XG4gIGl0KCdzaG91bGQgcnVuJywgKCkgPT4ge1xuICAgIGdlbmVyYXRlU291cmNlKCd0ZXN0UHJvamVjdHMvc2ltcGxlJywgJ3NyYycpXG4gIH0pXG59KVxuIl19
